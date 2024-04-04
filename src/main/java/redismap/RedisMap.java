@@ -88,10 +88,10 @@ public class RedisMap implements Map<String, String> {
     }
 
     /**
-     * Returns a Set view of the mappings contained in this RedisMap.
+     * Returns a Collection view of the values contained in this RedisMap.
      * This operation is not supported by RedisMap.
      *
-     * @return A Set view of the mappings contained in this RedisMap.
+     * @return A Collection view of the values contained in this RedisMap.
      * @throws UnsupportedOperationException always, as RedisMap does not support this operation.
      */
     @Override
