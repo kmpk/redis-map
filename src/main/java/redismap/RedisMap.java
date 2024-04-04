@@ -9,7 +9,7 @@ import java.util.Set;
 /**
  * RedisMap implements the {@code Map<String, String>} interface using Redis as the underlying data store.
  * It provides key-value mapping functionality and operations commonly found in a Map interface.
- * This class is backed by a Redis instance represented by {@link Jedis}.
+ * This class is backed by a Redis client {@link Jedis}.
  */
 public class RedisMap implements Map<String, String> {
     private final Jedis jedis;
